@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.card {
+    margin: 20px auto;
+    background-color: aqua;
+    border-radius: 30px;
+    max-width: 600px;
+    padding: 20px;
+}
+
+input {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: beige;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(50, 123, 240);
+}
+
+.weather {
+    display: none;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0 10px;
+}
+
+.col {
+    align-items: center;
+    margin: 20px 0;
+}
+
+.col1 {
+    margin: 20px 0;
+    align-items: center;
+}
+
+.error {
+    text-align: center;
+    color: red;
+    display: none;
+}
+
+footer {
+    background-color: aquamarine;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    input {
+        width: 60%;
+    }
+    .details {
+        padding: 0 20px;
+    }
+}
